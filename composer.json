@@ -1,0 +1,21 @@
+{
+    "name": "wpseed/plugin",
+    "description": "WordPress plugin framework",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Zorca Orcinus",
+            "email": "vs@zorca.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "league/container": "^3.3",
+        "caseyamcl/configula": "^3.1"
+    },
+    "autoload"    : {
+        "psr-4" : {
+            "Wpseed\\" : "src"
+        }
+    }
+}
