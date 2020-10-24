@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpseed\Interfaces;
+namespace Wpseed\Support\Interfaces;
 
 use Closure;
 

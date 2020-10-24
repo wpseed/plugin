@@ -4,12 +4,14 @@ namespace Wpseed;
 
 use Closure;
 use League\Container\Container;
+use Wpseed\Interfaces\Bootable;
+use Wpseed\Support\Traits\Macroable;
 use Configula\ConfigFactory;
 
 /**
  * Class Plugin
  */
-class Plugin extends Container {
+class Plugin extends Container implements Bootable {
 
     use Macroable;
 
